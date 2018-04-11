@@ -1,3 +1,11 @@
+# Some music
+
+Just a simple music blog based on Jekyll and the 'chalk' template.
+
+Here is the templates original README:
+
+
+
 ![](_assets/images/documentation/chalk-intro@2x.png)
 
 Chalk is a high quality, completely customizable, performant and 100% free blog template for Jekyll.
@@ -95,3 +103,4 @@ MIT License
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create a new Pull Request
+
