@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "First Post"
-tags: [Cowboy Rhythmbox, Brett]
+title: "Dessert Sound Colony - Chugging For South Africa"
+tags: [Dessert Sound Colony, Africa]
 ---
 
 <div class="embed-responsive embed-responsive-16by9">
