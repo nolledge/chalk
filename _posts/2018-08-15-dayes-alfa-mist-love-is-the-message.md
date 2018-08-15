@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "First Post"
+title: "Love Is the Message"
 tags: [Hip Hop, Jazz, Alfa Mist, Yussef Dayes]
 ---
 
