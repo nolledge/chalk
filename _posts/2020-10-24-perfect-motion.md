@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suncreem - Perfect Motion (Boy's Own Mix)
+title: "Suncreem - Perfect Motion (Boy's Own Mix)"
 tags: [90s, Electro, Brett]
 ---
 
