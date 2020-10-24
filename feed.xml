@@ -1,20 +1,90 @@
----
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom" xmlns:dc="https://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | xml_escape }}</title>
-    <description>{% if site.description %}{{ site.description | xml_escape }}{% endif %}</description>
-    <link>{{ site.url }}</link>
-    <atom:link href="{{ page.path | absolute_url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Some music</title>
+    <description></description>
+    <link>http://music.christof-nolle.de</link>
+    <atom:link href="http://music.christof-nolle.de/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.description | xml_escape }}</description>
-        <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-        <link>{{ post.url | absolute_url }}</link>
-        <guid isPermaLink="true">{{ post.url | absolute_url }}</guid>
+        <title>Renato Cohen - Lone Ranger</title>
+        <description></description>
+        <pubDate>Sat, 24 Oct 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/renato-cohen-lone-ranger</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/renato-cohen-lone-ranger</guid>
       </item>
-    {% endfor %}
+    
+      <item>
+        <title>Suncreem - Perfect Motion (Boy's Own Mix)</title>
+        <description></description>
+        <pubDate>Sat, 24 Oct 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/perfect-motion</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/perfect-motion</guid>
+      </item>
+    
+      <item>
+        <title>Perfect Motion - Simple Dub</title>
+        <description></description>
+        <pubDate>Sat, 24 Oct 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/perfect-motion-dub</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/perfect-motion-dub</guid>
+      </item>
+    
+      <item>
+        <title>Earth People - Dance (Club Mix)</title>
+        <description></description>
+        <pubDate>Fri, 11 Sep 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/earth-people-dance</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/earth-people-dance</guid>
+      </item>
+    
+      <item>
+        <title>Tru Tones - Dancing</title>
+        <description></description>
+        <pubDate>Tue, 18 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/tru-tones</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/tru-tones</guid>
+      </item>
+    
+      <item>
+        <title>Plus free and easy</title>
+        <description></description>
+        <pubDate>Tue, 18 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/plus-free-easy</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/plus-free-easy</guid>
+      </item>
+    
+      <item>
+        <title>Sharp Soul - Another Brick (Edit)</title>
+        <description></description>
+        <pubDate>Tue, 18 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/another-brick</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/another-brick</guid>
+      </item>
+    
+      <item>
+        <title>Yellow Magica Orchestra - Be a Superman</title>
+        <description></description>
+        <pubDate>Sat, 15 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/ymo-superman</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/ymo-superman</guid>
+      </item>
+    
+      <item>
+        <title>Voilaaa - Spies Are Watching Me (Feat. Sir Jean) [Official]</title>
+        <description></description>
+        <pubDate>Sat, 15 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/voilaaa-spies-are-watching-me</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/voilaaa-spies-are-watching-me</guid>
+      </item>
+    
+      <item>
+        <title>Daniel Rateuke feat. Ursula Rucker - Or Stay Alive (Richard Earnshaw 'Inner Spirit' Extended Mix)</title>
+        <description></description>
+        <pubDate>Sat, 15 Aug 2020 00:00:00 +0200</pubDate>
+        <link>http://music.christof-nolle.de/posts/daniel-rateuke-or-stay-alive</link>
+        <guid isPermaLink="true">http://music.christof-nolle.de/posts/daniel-rateuke-or-stay-alive</guid>
+      </item>
+    
   </channel>
 </rss>
